@@ -1,21 +1,21 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: JunHa Cha
+description: Robotics Engineer | Software Engineer
+site_title: '@junha_cha Github Pages'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+github_username: ckwnsgk
+LAB_Homepage: https://sites.google.com/view/irasc/home
+email: ckwnsgk1@gachon.ac.kr
+keybase_username: JunHa Cha
+instagram_username: z000_na
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/profile.jpeg
+profile_picture_alt: 'JunHa Cha'
 
 # Google Analytics ID
 google_analytics: 
