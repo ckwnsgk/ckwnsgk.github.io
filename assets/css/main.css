@@ -215,11 +215,11 @@ img {
 }
 
 .section-wrapper:nth-child(odd) .skills-subsection {
-  color: #fff;
+  color: #000;
 }
 
 .section-wrapper:nth-child(odd) .paragraph-text {
-  color: #fff;
+  color: #000;
 }
 
 /* YouTube 항목은 항상 흰색 배경과 어두운 텍스트 유지 */
