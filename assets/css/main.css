@@ -727,3 +727,43 @@ a {
   color: navy;
   white-space: nowrap;
 }
+
+/* 프로젝트 섹션 스타일 개선 */
+.project-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project-filter-button {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color: rgba(52, 152, 219, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+.project-filter-button:hover {
+  background-color: rgba(52, 152, 219, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-filter-button i {
+  color: #3498db;
+}
+
+/* 프로젝트 카드 개선 */
+.project-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
