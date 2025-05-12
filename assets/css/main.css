@@ -650,24 +650,25 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2); /* 배경을 더 밝게 조정 (0.4 → 0.2) */
+  background-color: rgba(0, 0, 0, 0.05); /* 배경을 거의 투명하게 설정 */
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.7; /* 투명도 증가 (0.8 → 0.7) */
+  opacity: 0.9; /* 재생 버튼은 잘 보이도록 설정 */
   transition: opacity 0.3s ease, background-color 0.3s ease;
 }
 
 .play-button-overlay span {
   color: white;
-  font-size: 3rem; /* 버튼 텍스트 크기 줄임 (4rem → 3rem) */
-  background-color: rgba(255, 0, 0, 0.7);
-  width: 55px; /* 버튼 크기 줄임 (70px → 55px) */
-  height: 55px; /* 버튼 크기 줄임 (70px → 55px) */
+  font-size: 3rem;
+  background-color: rgba(255, 0, 0, 0.85); /* 배경색을 더 선명하게 */
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* 그림자 추가로 더 눈에 띄게 */
 }
 
 .youtube-thumbnail:hover img {
@@ -675,7 +676,7 @@ a {
 }
 
 .youtube-thumbnail:hover .play-button-overlay {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.15); /* 호버 시에도 배경은 거의 투명하게 */
   opacity: 1;
 }
 
