@@ -24,11 +24,11 @@ function blog_posts() {
     let posts = [
         {
             url: '#',
-            title: '딥러닝을 활용한 로봇 제어 기술 세미나',
+            title: 'OpenVLA: An Open-Source Vision-Language-Action Model',
         },
         {
             url: '#',
-            title: '자율주행 기술의 최신 동향과 도전 과제',
+            title: 'End-to-End Semi-Supervised 3D Instance Segmentation with PCTeacher (ICRA 2024)',
         },
         {
             url: '#',
