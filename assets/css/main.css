@@ -626,12 +626,7 @@ a {
   margin-bottom: 8px;
 }
 
-.youtube-description {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: #333;
-  margin-bottom: 0;
-}
+
 
 .youtube-item-horizontal:hover {
   transform: translateY(-5px);
