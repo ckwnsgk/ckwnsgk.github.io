@@ -384,6 +384,8 @@ img {
   width: 250px;
   height: 250px;
   border: solid 2px rgb(95, 90, 243);
+  object-fit: cover;
+  object-position: center;
 }
 
 .profile-pic:hover {
