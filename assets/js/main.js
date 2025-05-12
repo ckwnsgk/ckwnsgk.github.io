@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     general_utils();
-    blog_posts();
+    // blog_posts(); // 주석 처리: 정적 HTML을 사용하기로 함
 })
 
 
@@ -23,24 +23,16 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+            url: '#',
+            title: '딥러닝을 활용한 로봇 제어 기술 세미나',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            url: '#',
+            title: '자율주행 기술의 최신 동향과 도전 과제',
         },
         {
-            url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Jagriti Yatra 2017',
-        },
-        {
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
-        },
-        {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
+            url: '#',
+            title: '로보틱스와 인공지능의 융합 방향성',
         },
     ];
 
