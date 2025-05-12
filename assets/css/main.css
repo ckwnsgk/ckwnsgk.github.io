@@ -582,29 +582,44 @@ a {
   }
 }
 
-/* YouTube 동영상 스타일 */
-.youtube-seminars-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
+/* YouTube 동영상 스타일 - 가로 배치 세로 스택 */
+.youtube-seminars-wrapper-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   padding: 20px 0;
 }
 
-.youtube-item {
+.youtube-item-horizontal {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.youtube-item:hover {
+.youtube-item-horizontal:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.youtube-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.youtube-thumbnail-horizontal {
+  flex: 0 0 250px;
+}
+
+.youtube-info {
+  flex: 1;
+}
+
 .youtube-title {
   font-size: 1.5rem;
-  margin: 15px 0;
+  margin: 0 0 15px 0;
   color: inherit;
 }
 
@@ -619,7 +634,7 @@ a {
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .youtube-thumbnail img {
@@ -663,14 +678,19 @@ a {
   opacity: 1;
 }
 
-@media screen and (min-width: 768px) {
-  .youtube-seminars-wrapper {
-    grid-template-columns: repeat(2, 1fr);
+/* 모바일 화면에서의 반응형 조정 */
+@media screen and (max-width: 768px) {
+  .youtube-content-wrapper {
+    flex-direction: column;
   }
-}
-
-@media screen and (min-width: 1200px) {
-  .youtube-seminars-wrapper {
-    grid-template-columns: repeat(3, 1fr);
+  
+  .youtube-thumbnail-horizontal {
+    flex: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .youtube-info {
+    margin-top: 10px;
   }
 }
