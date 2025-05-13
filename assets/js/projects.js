@@ -11,22 +11,22 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/robotis.png',
             link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
+            title: 'ROBOTIS OpenLAB',
             demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
+            technologies: ['ROBOTIS','forum','networking'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            categories: ['symposium']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
+            image: 'assets/images/aikr.jpeg',
             link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
+            title: 'AIKR ',
             demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
+            technologies: ['AIKR','forum','networking'],
             description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'webdev']
+            categories: ['symposium']
         },
         {
             image: 'assets/images/collage.jpg',
