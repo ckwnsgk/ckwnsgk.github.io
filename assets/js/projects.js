@@ -43,7 +43,7 @@ let render_projects = (slug) => {
             title: 'M',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
+            description: "Developed a ROS driver for the Movella-Dot IMU sensor.",
             categories: ['project']
         },
         {
