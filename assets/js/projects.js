@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'Open Source Supporters',
             technologies: ['open-source'],
             description: "Gachon University Open Source Supporters로써, 학교 내 오픈소스 프로젝트를 지원하고 있습니다.",
-            categories: ['diary']
+            categories: ['activity']
         },
         {
             image: 'assets/images/omy.gif',
@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             title: 'ROBOTIS OpenLAB',
             technologies: ['ROBOTIS','forum','networking'],
             description: "ROBOTIS OpenLAB 행사에 참여하여 네트워킹을 진행하고 사옥을 탐방해보았습니다.",
-            categories: ['diary']
+            categories: ['activity']
         },
         {
             image: 'assets/images/aikr.jpeg',
@@ -32,7 +32,7 @@ let render_projects = (slug) => {
             title: 'AIKR ',
             technologies: ['AIKR','forum','networking'],
             description: "로봇계 대가이신 연사님들의 강연을 듣고, 인사이트를 얻는 좋은 기회였습니다.",
-            categories: ['diary']
+            categories: ['activity']
         },
         {
             image: 'assets/images/movella.png',
