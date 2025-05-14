@@ -11,12 +11,20 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/opensource.jpeg',
+            link: 'https://slam.gachon.ac.kr/',
+            title: 'Open Source Supporters',
+            technologies: ['open-source'],
+            description: "Gachon University Open Source Supporters로써, 학교 내 오픈소스 프로젝트를 지원하고 있습니다.",
+            categories: ['activity']
+        },
+        {
             image: 'assets/images/robotis.png',
             link: '',
             title: 'ROBOTIS OpenLAB',
             technologies: ['ROBOTIS','forum','networking'],
             description: "ROBOTIS OpenLAB 행사에 참여하여 네트워킹을 진행하고 사옥을 탐방해보았습니다.",
-            categories: ['symposium']
+            categories: ['activity']
         },
         {
             image: 'assets/images/aikr.jpeg',
@@ -24,7 +32,7 @@ let render_projects = (slug) => {
             title: 'AIKR ',
             technologies: ['AIKR','forum','networking'],
             description: "로봇계 대가이신 연사님들의 강연을 듣고, 인사이트를 얻는 좋은 기회였습니다.",
-            categories: ['symposium']
+            categories: ['activity']
         },
         {
             image: 'assets/images/movella.jpg',
@@ -51,8 +59,8 @@ let render_projects = (slug) => {
             categories: ['Challenge','featured']
         },
         {
-            image: 'assets/images/kiroplatform.jpeg',
-            link: 'https://openvla.github.io/',
+            image: 'assets/images/bbvla.png',
+            link: '--',
             title: 'BB-VLA',
             technologies: ['VLA','ROS','LLM'],
             description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing, 대한전자공학회, IEIE, (2025).",
