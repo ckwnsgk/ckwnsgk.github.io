@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
-            image: 'assets/images/movella.jpg',
+            image: 'assets/images/movella.png',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
             title: 'Movella-Dot IMU Sensor',
             technologies: ['Python', 'ROS2'],
