@@ -41,6 +41,14 @@ let render_projects = (slug) => {
             technologies: ['VLA'],
             description: "Directly applied the OpenVLA model and conducted experiments.",
             categories: ['project','featured']
+        },
+        {
+            image: 'assets/images/kiroplatform.jpeg',
+            link: 'https://openvla.github.io/',
+            title: '2024-국방로봇경진대회',
+            technologies: ['ROS','Robotics','moveit','YOLO'],
+            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
+            categories: ['project']
         }
     ]
 
