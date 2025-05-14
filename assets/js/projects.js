@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor.",
-            categories: ['project']
+            categories: ['project','featured']
         },
         {
             image: 'assets/images/social-share-count.jpeg',
