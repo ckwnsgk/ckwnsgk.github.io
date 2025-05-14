@@ -72,7 +72,7 @@ let render_projects = (slug) => {
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
-            categories: ['project', 'robot_example']
+            categories: ['project', 'Robot']
         },
         {
             image: 'assets/images/omx.gif',
@@ -80,7 +80,7 @@ let render_projects = (slug) => {
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
-            categories: ['project', 'robot_example']
+            categories: ['project', 'Robot']
         }
     ]
 
