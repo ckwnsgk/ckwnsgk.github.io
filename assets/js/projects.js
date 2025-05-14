@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/robotis.png',
             link: 'https://github.com/abhn/Mporter',
             title: 'ROBOTIS OpenLAB',
-            demo: 'https://mporter.co',
+            demo: '--',
             technologies: ['ROBOTIS','forum','networking'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
             categories: ['symposium']
@@ -38,13 +38,13 @@ let render_projects = (slug) => {
             categories: ['featured', 'native']
         },
         {
-            image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
-            title: 'Master Password',
+            image: 'assets/images/movella.jpg',
+            link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
+            title: 'M',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
             description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-            categories: ['featured', 'security']
+            categories: ['project']
         },
         {
             image: 'assets/images/social-share-count.jpeg',
