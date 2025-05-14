@@ -12,7 +12,7 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/robotis.png',
-            link: 'https://github.com/abhn/Mporter',
+            link: '',
             title: 'ROBOTIS OpenLAB',
             technologies: ['ROBOTIS','forum','networking'],
             description: "ROBOTIS OpenLAB 행사에 참여하여 네트워킹을 진행하고 사옥을 탐방해보았습니다.",
@@ -30,8 +30,16 @@ let render_projects = (slug) => {
             image: 'assets/images/movella.jpg',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
             title: 'Movella-Dot IMU Sensor',
-            technologies: ['Semantic UI', 'CSS3'],
+            technologies: ['Python', 'ROS2'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
+            categories: ['project','featured']
+        },
+        {
+            image: 'assets/images/openVLA.gif',
+            link: 'https://openvla.github.io/',
+            title: 'OpenVLA Experiment',
+            technologies: ['VLA'],
+            description: "Directly applied the OpenVLA model and conducted experiments.",
             categories: ['project','featured']
         }
     ]
