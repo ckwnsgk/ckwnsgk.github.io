@@ -1,0 +1,37 @@
+/* Custom CSS for Projects Section */
+.section.projects {
+  max-width: 95%; /* 전체 화면 너비의 95%까지 확장 */
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* 반응형 그리드 */
+  grid-gap: 25px;
+  padding: 20px;
+}
+
+/* 카드 확장 */
+.wrapper {
+  max-width: 100%; /* 원래 400px에서 제한 없앰 */
+  padding: 0;
+  transition: transform 0.3s;
+}
+
+.wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.card__image {
+  min-height: 180px; /* 이미지 높이 증가 */
+  max-height: 280px;
+}
+
+@media (max-width: 768px) {
+  .section.projects {
+    max-width: 90%;
+  }
+  
+  .projects-wrapper {
+    grid-template-columns: 1fr; /* 모바일에서는 한 열로 */
+  }
+}
