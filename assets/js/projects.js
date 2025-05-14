@@ -48,7 +48,15 @@ let render_projects = (slug) => {
             title: '2024-국방로봇경진대회',
             technologies: ['ROS','Robotics','moveit','YOLO'],
             description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
-            categories: ['project']
+            categories: ['Challenge','featured']
+        },
+        {
+            image: 'assets/images/kiroplatform.jpeg',
+            link: 'https://openvla.github.io/',
+            title: 'BB-VLA',
+            technologies: ['VLA','ROS','LLM'],
+            description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing, 대한전자공학회, IEIE, (2025).",
+            categories: ['paper']
         }
     ]
 
