@@ -19,7 +19,7 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
-            image: 'assets/images/robotis.png',
+            image: 'assets/images/omy.gif',
             link: '',
             title: 'ROBOTIS OpenLAB',
             technologies: ['ROBOTIS','forum','networking'],
@@ -52,7 +52,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/kiroplatform.jpeg',
-            link: 'https://openvla.github.io/',
+            link: '--',
             title: '2024-국방로봇경진대회',
             technologies: ['ROS','Robotics','moveit','YOLO'],
             description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
@@ -65,6 +65,22 @@ let render_projects = (slug) => {
             technologies: ['VLA','ROS','LLM'],
             description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing, 대한전자공학회, IEIE, (2025).",
             categories: ['paper']
+        },
+        {
+            image: 'assets/images/batender.gif',
+            link: '--',
+            title: 'Customized widowX 250s',
+            technologies: ['robotics'],
+            description: "Assembled the WidowX robotic arm and customized the bartender example.",
+            categories: ['project', 'robot_example']
+        },
+        {
+            image: 'assets/images/omx.gif',
+            link: '--',
+            title: 'Customized OMX-7DOF',
+            technologies: ['robotics'],
+            description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
+            categories: ['project', 'robot_example']
         }
     ]
 
