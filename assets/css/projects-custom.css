@@ -9,6 +9,14 @@
   margin: 0 auto 30px; /* Center the buttons container */
 }
 
+/* Prevent text wrapping in filter buttons */
+.project-filter-button {
+  white-space: nowrap; /* Prevent text from wrapping to next line */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  min-width: fit-content; /* Allow button to grow as needed */
+}
+
 .projects-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* 반응형 그리드 */
@@ -44,5 +52,12 @@
   /* Adjust filter buttons on mobile */
   .project-filter-buttons {
     max-width: 100%;
+    flex-wrap: nowrap; /* Prevent wrapping on mobile */
+    overflow-x: auto; /* Add horizontal scrolling on mobile */
+    padding-bottom: 10px; /* Add space for scrollbar */
+  }
+  
+  .project-filter-button {
+    flex: 0 0 auto; /* Don't allow buttons to shrink */
   }
 }

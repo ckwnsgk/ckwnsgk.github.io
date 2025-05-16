@@ -28,7 +28,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/hy.gif',
-            link: '--',
+            link: '',
             title: '코액스 Smart Tech 전시회',
             technologies: ['forum','networking'],
             description: "코액스 스마트 테크 전시회에 방문하여, 제가 연구중이던 Fully Autonomous Palletizing 에 대해 현재 기술 수준과 한계점을 파악할 수 있었습니다.",
@@ -36,7 +36,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/drone.gif',
-            link: '--',
+            link: '',
             title: '남산 드론축제',
             technologies: ['forum','networking'],
             description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",

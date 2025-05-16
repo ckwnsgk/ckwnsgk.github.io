@@ -792,6 +792,8 @@ a {
   padding: 8px 16px;
   background-color: rgba(52, 152, 219, 0.1);
   border: 1px solid rgba(52, 152, 219, 0.3);
+  white-space: nowrap; /* Prevent text from wrapping */
+  min-width: fit-content; /* Allow button to expand as needed */
 }
 
 .project-filter-button:hover {
