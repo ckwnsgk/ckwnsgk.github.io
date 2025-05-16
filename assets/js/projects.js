@@ -81,6 +81,22 @@ let render_projects = (slug) => {
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
             categories: ['project', 'robotics']
+        },
+        {
+            image: 'assets/images/hy.gif',
+            link: '--',
+            title: '코액스..',
+            technologies: ['robotics'],
+            description: "",
+            categories: ['activity']
+        },
+        {
+            image: 'assets/images/drone.gif',
+            link: '--',
+            title: '남산 드론축제',
+            technologies: ['robotics'],
+            description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
+            categories: ['activity']
         }
     ]
 
