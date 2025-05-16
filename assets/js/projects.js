@@ -43,6 +43,14 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
+            image: 'assets/images/drone.gif',
+            link: '--',
+            title: 'KROS 한국로봇학회',
+            technologies: ['robotics'],
+            description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
+            categories: ['activity']
+        },
+        {
             image: 'assets/images/aikr.jpeg',
             link: 'https://github.com/abhn/Wall-E',
             title: 'AIKR ',
@@ -72,7 +80,31 @@ let render_projects = (slug) => {
             title: '2024-국방로봇경진대회',
             technologies: ['ROS','Robotics','moveit','YOLO'],
             description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
-            categories: ['Challenge','featured']
+            categories: ['challenge','featured']
+        },
+        {
+            image: 'assets/images/kiroplatform.jpeg',
+            link: '--',
+            title: '드론봇 대회 챌린지',
+            technologies: ['ROS','Robotics','moveit','YOLO'],
+            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
+            categories: ['challenge','featured']
+        },
+        {
+            image: 'assets/images/kiroplatform.jpeg',
+            link: '--',
+            title: '창업해 春, 해커톤 대회',
+            technologies: ['ROS','Robotics','moveit','YOLO'],
+            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
+            categories: ['challenge','featured']
+        },
+        {
+            image: 'assets/images/kiroplatform.jpeg',
+            link: '--',
+            title: '자랑스러운 가천인상',
+            technologies: ['ROS','Robotics','moveit','YOLO'],
+            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
+            categories: ['challenge','featured']
         },
         {
             image: 'assets/images/bbvla.png',
