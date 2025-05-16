@@ -108,10 +108,10 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/bbvla.png',
-            link: 'https://www.notion.so/Demo_BB-vla-1f5f891b7076809b9f99c5a156042136',
-            title: 'BB-VLA',
+            link: 'https://www.notion.so/Demo_BB-vla-1f5f891b7076809b9f99c5a156042136?pvs=4',
+            title: 'BB-VLA, 대한전자공학회, IEIE, (2025).',
             technologies: ['VLA','ROS','LLM'],
-            description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing, 대한전자공학회, IEIE, (2025).",
+            description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing",
             categories: ['paper','featured']
         },
         {
