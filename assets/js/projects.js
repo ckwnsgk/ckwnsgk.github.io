@@ -52,7 +52,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/arkr.png',
-            link: '--',
+            link: '',
             title: 'AIKR ',
             technologies: ['AIKR','forum','networking'],
             description: "로봇계 대가이신 연사님들의 강연을 듣고, 인사이트를 얻는 좋은 기회였습니다.[연사님들의 연구자산이므로, 비공개 처리 하였습니다.]",
@@ -60,35 +60,35 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/kiroplatform.jpeg',
-            link: '--',
+            link: '',
             title: '2024-국방로봇경진대회',
-            technologies: ['ROS','Robotics','moveit','YOLO'],
+            technologies: ['Award','ROS','Robotics','moveit','YOLO'],
             description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
             categories: ['challenge','featured']
         },
         {
-            image: 'assets/images/kiroplatform.jpeg',
-            link: '--',
-            title: '드론봇 대회 챌린지',
-            technologies: ['ROS','Robotics','moveit','YOLO'],
-            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
-            categories: ['challenge','featured']
+            image: 'assets/images/drbot.png',
+            link: '',
+            title: '드론봇 대회 챌린지[국방부 장관상 1위]',
+            technologies: ['Award','Robotics','Deep Learning'],
+            description: "We won first place in the drone-based runway foreign object detection competition organized by the Republic of Korea Air Force.",
+            categories: ['Award','challenge','featured']
         },
         {
-            image: 'assets/images/kiroplatform.jpeg',
-            link: '--',
-            title: '창업해 春, 해커톤 대회',
-            technologies: ['ROS','Robotics','moveit','YOLO'],
-            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
-            categories: ['challenge','featured']
+            image: 'assets/images/Univer.png',
+            link: '',
+            title: '창업해 春 [최우수상 1위]',
+            technologies: ['Award','Flutter'],
+            description: "We developed 'Univerlet,' a campus communication app, and won first place in the student startup competition hosted by Gachon University.",
+            categories: ['challenge']
         },
         {
-            image: 'assets/images/kiroplatform.jpeg',
-            link: '--',
+            image: 'assets/images/gac.png',
+            link: '',
             title: '자랑스러운 가천인상',
-            technologies: ['ROS','Robotics','moveit','YOLO'],
-            description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
-            categories: ['challenge','featured']
+            technologies: ['Award'],
+            description: "학교를 빛낸 학생으로 선정되어, 자랑스러운 가천인상을 수상하였습니다.",
+            categories: ['challenge']
         },
         {
             image: 'assets/images/bbvla.png',
