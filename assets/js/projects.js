@@ -11,15 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/opensource.jpeg',
+            image: 'assets/images/opensource.png',
             link: 'https://slam.gachon.ac.kr/',
             title: 'Open Source Supporters',
             technologies: ['open-source'],
-            description: "Gachon University Open Source Supporters로써, 학교 내 오픈소스 프로젝트를 지원하고 있습니다.",
+            description: "Gachon University 소프트웨어 중심 대학 Open Source Supporters로써, 학교 내 오픈소스 프로젝트 홍보 및 관리를 지원하고 있습니다.",
             categories: ['activity']
         },
         {
-            image: 'assets/images/omy.gif',
+            image: 'assets/images/robotis1.png',
             link: '',
             title: 'ROBOTIS OpenLAB',
             technologies: ['ROBOTIS','forum','networking'],
@@ -29,33 +29,33 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/hy.gif',
             link: '--',
-            title: '코액스 스마트 테크 전시회',
-            technologies: ['robotics'],
-            description: "코액스 스마트 테크 전시회에 방문하여, 현재 로봇 산업의 다양한 기술을 확인할 수 있었습니다.",
+            title: '코액스 Smart Tech 전시회',
+            technologies: ['forum','networking'],
+            description: "코액스 스마트 테크 전시회에 방문하여, 제가 연구중이던 Fully Autonomous Palletizing 에 대해 현재 기술 수준과 한계점을 파악할 수 있었습니다.",
             categories: ['activity']
         },
         {
             image: 'assets/images/drone.gif',
             link: '--',
             title: '남산 드론축제',
-            technologies: ['robotics'],
+            technologies: ['forum','networking'],
             description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
             categories: ['activity']
         },
         {
-            image: 'assets/images/drone.gif',
-            link: '--',
+            image: 'assets/images/kros.png',
+            link: 'https://www.notion.so/KROS-1f5f891b707680d8943ef24daa361f52?pvs=4',
             title: 'KROS 한국로봇학회',
-            technologies: ['robotics'],
-            description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
+            technologies: ['forum','networking'],
+            description: "첫 학회로 참여하여, 로봇 분야 최신 연구 동향을 파악하고 많은 기업관계자 분들을 뵙고 좋은 경험을 할 수 있었습니다.",
             categories: ['activity']
         },
         {
-            image: 'assets/images/aikr.jpeg',
-            link: 'https://github.com/abhn/Wall-E',
+            image: 'assets/images/arkr.png',
+            link: '--',
             title: 'AIKR ',
             technologies: ['AIKR','forum','networking'],
-            description: "로봇계 대가이신 연사님들의 강연을 듣고, 인사이트를 얻는 좋은 기회였습니다.",
+            description: "로봇계 대가이신 연사님들의 강연을 듣고, 인사이트를 얻는 좋은 기회였습니다.[연사님들의 연구자산이므로, 비공개 처리 하였습니다.]",
             categories: ['activity']
         },
         {
