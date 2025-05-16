@@ -60,7 +60,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/bbvla.png',
-            link: '--',
+            link: 'https://www.notion.so/Demo_BB-vla-1f5f891b7076809b9f99c5a156042136',
             title: 'BB-VLA',
             technologies: ['VLA','ROS','LLM'],
             description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing, 대한전자공학회, IEIE, (2025).",
@@ -68,7 +68,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/batender.gif',
-            link: '--',
+            link: 'https://www.notion.so/DEMO_Custom_WidowX-1f5f891b707680b58910c182580e0d45',
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
@@ -76,7 +76,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/omx.gif',
-            link: '--',
+            link: 'https://www.notion.so/DEMO_7Dof_OMX-control-1f5f891b707680f4b196e16a47efd57f',
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",

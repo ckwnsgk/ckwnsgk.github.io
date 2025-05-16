@@ -3,6 +3,12 @@
   max-width: 95%; /* 전체 화면 너비의 95%까지 확장 */
 }
 
+/* Add max-width to project filter buttons container */
+.project-filter-buttons {
+  max-width: 800px; /* Limit the width of the filter buttons area */
+  margin: 0 auto 30px; /* Center the buttons container */
+}
+
 .projects-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* 반응형 그리드 */
@@ -33,5 +39,10 @@
   
   .projects-wrapper {
     grid-template-columns: 1fr; /* 모바일에서는 한 열로 */
+  }
+  
+  /* Adjust filter buttons on mobile */
+  .project-filter-buttons {
+    max-width: 100%;
   }
 }
