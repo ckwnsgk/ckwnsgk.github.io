@@ -19,6 +19,14 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
+            image: 'assets/images/kros.png',
+            link: 'https://www.notion.so/KROS-1f5f891b707680d8943ef24daa361f52?pvs=4',
+            title: 'KROS 한국로봇학회',
+            technologies: ['forum','networking'],
+            description: "첫 학회로 참여하여, 로봇 분야 최신 연구 동향을 파악하고 많은 기업관계자 분들을 뵙고 좋은 경험을 할 수 있었습니다.",
+            categories: ['activity']
+        },
+        {
             image: 'assets/images/robotis1.png',
             link: '',
             title: 'ROBOTIS OpenLAB',
@@ -43,14 +51,6 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
-            image: 'assets/images/kros.png',
-            link: 'https://www.notion.so/KROS-1f5f891b707680d8943ef24daa361f52?pvs=4',
-            title: 'KROS 한국로봇학회',
-            technologies: ['forum','networking'],
-            description: "첫 학회로 참여하여, 로봇 분야 최신 연구 동향을 파악하고 많은 기업관계자 분들을 뵙고 좋은 경험을 할 수 있었습니다.",
-            categories: ['activity']
-        },
-        {
             image: 'assets/images/arkr.png',
             link: '--',
             title: 'AIKR ',
@@ -72,7 +72,7 @@ let render_projects = (slug) => {
             title: 'OpenVLA Experiment',
             technologies: ['VLA'],
             description: "Directly applied the OpenVLA model and conducted experiments.",
-            categories: ['robotics_project','featured']
+            categories: ['robotics','featured']
         },
         {
             image: 'assets/images/kiroplatform.jpeg',
@@ -120,7 +120,7 @@ let render_projects = (slug) => {
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
-            categories: ['project', 'robotics_project']
+            categories: ['project', 'robotics']
         },
         {
             image: 'assets/images/omx.gif',
@@ -128,7 +128,7 @@ let render_projects = (slug) => {
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
-            categories: ['project', 'robotics_project']
+            categories: ['project', 'robotics']
         }
     ]
 
