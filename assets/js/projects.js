@@ -85,9 +85,9 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/hy.gif',
             link: '--',
-            title: '코액스..',
+            title: '코액스 스마트 테크 전시회',
             technologies: ['robotics'],
-            description: "",
+            description: "코액스 스마트 테크 전시회에 방문하여, 현재 로봇 산업의 다양한 기술을 확인할 수 있었습니다.",
             categories: ['activity']
         },
         {
@@ -107,6 +107,12 @@ let render_projects = (slug) => {
     else {
         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
     }
+    
+    // Add a fallback message if no projects are found
+    if (projects.length === 0) {
+        projects = ['<div class="no-projects-message" style="text-align: center; padding: 30px; width: 100%;"><p class="paragraph-text">No projects found in this category.</p></div>'];
+    }
+    
     projects_area.hide().html(projects).fadeIn();
 }
 
