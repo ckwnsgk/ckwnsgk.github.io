@@ -27,6 +27,22 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
+            image: 'assets/images/hy.gif',
+            link: '--',
+            title: '코액스 스마트 테크 전시회',
+            technologies: ['robotics'],
+            description: "코액스 스마트 테크 전시회에 방문하여, 현재 로봇 산업의 다양한 기술을 확인할 수 있었습니다.",
+            categories: ['activity']
+        },
+        {
+            image: 'assets/images/drone.gif',
+            link: '--',
+            title: '남산 드론축제',
+            technologies: ['robotics'],
+            description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
+            categories: ['activity']
+        },
+        {
             image: 'assets/images/aikr.jpeg',
             link: 'https://github.com/abhn/Wall-E',
             title: 'AIKR ',
@@ -48,7 +64,7 @@ let render_projects = (slug) => {
             title: 'OpenVLA Experiment',
             technologies: ['VLA'],
             description: "Directly applied the OpenVLA model and conducted experiments.",
-            categories: ['robotics','featured']
+            categories: ['robotics_project','featured']
         },
         {
             image: 'assets/images/kiroplatform.jpeg',
@@ -72,7 +88,7 @@ let render_projects = (slug) => {
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
-            categories: ['project', 'robotics']
+            categories: ['project', 'robotics_project']
         },
         {
             image: 'assets/images/omx.gif',
@@ -80,23 +96,7 @@ let render_projects = (slug) => {
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
-            categories: ['project', 'robotics']
-        },
-        {
-            image: 'assets/images/hy.gif',
-            link: '--',
-            title: '코액스 스마트 테크 전시회',
-            technologies: ['robotics'],
-            description: "코액스 스마트 테크 전시회에 방문하여, 현재 로봇 산업의 다양한 기술을 확인할 수 있었습니다.",
-            categories: ['activity']
-        },
-        {
-            image: 'assets/images/drone.gif',
-            link: '--',
-            title: '남산 드론축제',
-            technologies: ['robotics'],
-            description: "남산 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
-            categories: ['activity']
+            categories: ['project', 'robotics_project']
         }
     ]
 
