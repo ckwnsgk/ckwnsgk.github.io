@@ -131,19 +131,19 @@ let render_projects = (slug) => {
             categories: ['robotics']
         },
         {
+            image: 'assets/images/로봇공학.gif',
+            link: 'https://github.com/ckwnsgk/1-2Robotics_TeamProject-AutomaticCar-SmartCity-Beta',
+            title: 'Autonomous cars and Smart City',
+            technologies: ['Arduino','Robotics'],
+            description: "Imagining a future city, I built a smart-city prototype featuring autonomous vehicles and automated charging stations.",
+            categories: ['robotics']
+        },
+        {
             image: 'assets/images/rae.gif',
             link: 'https://www.notion.so/DEMO_RAE-1f5f891b7076801eb4e7c0cbd45c7599?pvs=4',
             title: 'RAE robot',
             technologies: ['robotics'],
             description: "I operated the RAE robot and used its built-in OAK-D camera to perform human detection.",
-            categories: ['robotics']
-        },
-        {
-            image: 'assets/images/Remotix.png',
-            link: '',
-            title: 'Turtlebot Teleoperation System',
-            technologies: ['robotics'],
-            description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
             categories: ['robotics']
         },
         {
@@ -155,11 +155,27 @@ let render_projects = (slug) => {
             categories: ['robotics']
         },
         {
+            image: 'assets/images/Remotix.png',
+            link: '',
+            title: 'Turtlebot Teleoperation System',
+            technologies: ['robotics'],
+            description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
+            categories: ['robotics']
+        },
+        {
             image: 'assets/images/auto.gif',
             link: '',
             title: 'TurtleBot Autorace',
             technologies: ['ROS','robotics'],
             description: "I participated in Gachon university AutoRace event and implemented an autonomous driving system using a TurtleBot.",
+            categories: ['robotics']
+        },
+        {
+            image: 'assets/images/closer.png',
+            link: 'https://github.com/ckwnsgk/Robotics_CLOSER',
+            title: 'Closer',
+            technologies: ['Arduino','Robotics'],
+            description: "I conceptualized a UGV-based door-closing robot called “Closer” and architected its code with practical implementation in mind.",
             categories: ['robotics']
         }
     ]
