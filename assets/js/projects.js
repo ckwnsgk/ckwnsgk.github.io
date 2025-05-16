@@ -37,7 +37,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/movella.png',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
-            title: 'Movella-Dot IMU Sensor',
+            title: '국립재활원 과제',
             technologies: ['Python', 'ROS2'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
             categories: ['project','featured']
@@ -48,7 +48,7 @@ let render_projects = (slug) => {
             title: 'OpenVLA Experiment',
             technologies: ['VLA'],
             description: "Directly applied the OpenVLA model and conducted experiments.",
-            categories: ['project','featured']
+            categories: ['robotics','featured']
         },
         {
             image: 'assets/images/kiroplatform.jpeg',
@@ -64,7 +64,7 @@ let render_projects = (slug) => {
             title: 'BB-VLA',
             technologies: ['VLA','ROS','LLM'],
             description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing, 대한전자공학회, IEIE, (2025).",
-            categories: ['paper']
+            categories: ['paper','featured']
         },
         {
             image: 'assets/images/batender.gif',
@@ -72,7 +72,7 @@ let render_projects = (slug) => {
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
-            categories: ['project', 'Robot']
+            categories: ['project', 'robotics']
         },
         {
             image: 'assets/images/omx.gif',
@@ -80,7 +80,7 @@ let render_projects = (slug) => {
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
-            categories: ['project', 'Robot']
+            categories: ['project', 'robotics']
         }
     ]
 
