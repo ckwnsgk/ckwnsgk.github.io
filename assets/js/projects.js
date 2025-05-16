@@ -112,7 +112,7 @@ let render_projects = (slug) => {
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
-            categories: ['project', 'robotics']
+            categories: ['robotics']
         },
         {
             image: 'assets/images/omx.gif',
@@ -120,15 +120,52 @@ let render_projects = (slug) => {
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
-            categories: ['project', 'robotics']
+            categories: ['robotics']
         },
+        {
+            image: 'assets/images/omx.gif',
+            link: 'https://www.notion.so/DEMO_7Dof_OMX-control-1f5f891b707680f4b196e16a47efd57f',
+            title: 'Low scale Smart Factory',
+            technologies: ['robotics'],
+            description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
+            categories: ['robotics']
+        },
+        {
+            image: 'assets/images/rae.gif',
+            link: 'https://www.notion.so/DEMO_RAE-1f5f891b7076801eb4e7c0cbd45c7599?pvs=4',
+            title: 'RAE robot',
+            technologies: ['robotics'],
+            description: "I operated the RAE robot and used its built-in OAK-D camera to perform human detection.",
+            categories: ['robotics']
+        },
+        {
+            image: 'assets/images/Remotix.png',
+            link: '',
+            title: 'Turtlebot Teleoperation System',
+            technologies: ['robotics'],
+            description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
+            categories: ['robotics']
+        },
+
+
+
+
+
         {
             image: 'assets/images/movella.png',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
             title: '국립재활원 과제',
             technologies: ['Python', 'ROS2'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
-            categories: ['project','featured']
+            categories: ['robotics']
+        },
+        {
+            image: 'assets/images/calibration.png',
+            link: '',
+            title: 'TurtleBot Autorace',
+            technologies: ['ROS','robotics'],
+            description: "I participated in Gachon university AutoRace event and implemented an autonomous driving system using a TurtleBot.",
+            categories: ['robotics']
         }
     ]
 
