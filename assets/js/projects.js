@@ -59,22 +59,6 @@ let render_projects = (slug) => {
             categories: ['activity']
         },
         {
-            image: 'assets/images/movella.png',
-            link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
-            title: '국립재활원 과제',
-            technologies: ['Python', 'ROS2'],
-            description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
-            categories: ['project','featured']
-        },
-        {
-            image: 'assets/images/openVLA.gif',
-            link: 'https://openvla.github.io/',
-            title: 'OpenVLA Experiment',
-            technologies: ['VLA'],
-            description: "Directly applied the OpenVLA model and conducted experiments.",
-            categories: ['robotics','featured']
-        },
-        {
             image: 'assets/images/kiroplatform.jpeg',
             link: '--',
             title: '2024-국방로봇경진대회',
@@ -115,6 +99,14 @@ let render_projects = (slug) => {
             categories: ['paper','featured']
         },
         {
+            image: 'assets/images/openVLA.gif',
+            link: 'https://openvla.github.io/',
+            title: 'OpenVLA Experiment',
+            technologies: ['VLA'],
+            description: "Directly applied the OpenVLA model and conducted experiments.",
+            categories: ['robotics','featured']
+        },
+        {
             image: 'assets/images/batender.gif',
             link: 'https://www.notion.so/DEMO_Custom_WidowX-1f5f891b707680b58910c182580e0d45',
             title: 'Customized widowX 250s',
@@ -129,6 +121,14 @@ let render_projects = (slug) => {
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
             categories: ['project', 'robotics']
+        },
+        {
+            image: 'assets/images/movella.png',
+            link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
+            title: '국립재활원 과제',
+            technologies: ['Python', 'ROS2'],
+            description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
+            categories: ['project','featured']
         }
     ]
 
