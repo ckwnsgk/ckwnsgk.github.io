@@ -123,11 +123,11 @@ let render_projects = (slug) => {
             categories: ['robotics']
         },
         {
-            image: 'assets/images/omx.gif',
-            link: 'https://www.notion.so/DEMO_7Dof_OMX-control-1f5f891b707680f4b196e16a47efd57f',
+            image: 'assets/images/smartfactory.gif',
+            link: '',
             title: 'Low scale Smart Factory',
             technologies: ['robotics'],
-            description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
+            description: "Aiming to build a small-scale smart factory, I developed a system where, upon a customer’s web order, a robot arm detects the product via an ARUCO marker and performs pick-and-place operations.",
             categories: ['robotics']
         },
         {
@@ -146,11 +146,6 @@ let render_projects = (slug) => {
             description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
             categories: ['robotics']
         },
-
-
-
-
-
         {
             image: 'assets/images/movella.png',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
@@ -160,7 +155,7 @@ let render_projects = (slug) => {
             categories: ['robotics']
         },
         {
-            image: 'assets/images/calibration.png',
+            image: 'assets/images/auto.gif',
             link: '',
             title: 'TurtleBot Autorace',
             technologies: ['ROS','robotics'],
