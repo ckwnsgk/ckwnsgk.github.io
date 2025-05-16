@@ -5,7 +5,7 @@
 
 /* Add max-width to project filter buttons container */
 .project-filter-buttons {
-  max-width: 800px; /* Limit the width of the filter buttons area */
+  max-width: 1000px; /* Increased from 800px to 1000px to give more space */
   margin: 0 auto 30px; /* Center the buttons container */
 }
 
@@ -15,6 +15,7 @@
   overflow: hidden; /* Hide overflow content */
   text-overflow: ellipsis; /* Show ellipsis for overflow text */
   min-width: fit-content; /* Allow button to grow as needed */
+  padding: 10px 20px; /* Increased padding for better appearance */
 }
 
 .projects-wrapper {
