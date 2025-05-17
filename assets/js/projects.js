@@ -68,7 +68,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/drbot.png',
-            link: '',
+            link: 'https://www.notion.so/1f6f891b707680bc8453c16857aef4d2?pvs=4',
             title: '드론봇 대회 챌린지[국방부 장관상 1위]',
             technologies: ['Award','Robotics','Deep Learning'],
             description: "We won first place in the drone-based runway foreign object detection competition organized by the Republic of Korea Air Force.",
@@ -119,12 +119,12 @@ let render_projects = (slug) => {
             link: 'https://www.notion.so/DEMO_7Dof_OMX-control-1f5f891b707680f4b196e16a47efd57f',
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
-            description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
+            description: "Assembled the OMX https://www.notion.so/1f6f891b707680bc8453c16857aef4d2?pvs=47DoF and playing with the MoveIt controller.",
             categories: ['robotics','featured']
         },
         {
             image: 'assets/images/smartfactory.gif',
-            link: '',
+            link: 'https://www.notion.so/LSSF-Low-Scale-Smart-Factory-1f6f891b707680bfbe56edfe37206dee?pvs=4',
             title: 'Low scale Smart Factory',
             technologies: ['robotics'],
             description: "Aiming to build a small-scale smart factory, I developed a system where, upon a customer’s web order, a robot arm detects the product via an ARUCO marker and performs pick-and-place operations.",
@@ -147,7 +147,7 @@ let render_projects = (slug) => {
             categories: ['robotics']
         },
         {
-            image: 'assets/images/movella.png',
+            image: 'assets/images/imu.gif',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
             title: '국립재활원 과제',
             technologies: ['Python', 'ROS2'],
@@ -157,7 +157,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/Remotix.png',
             link: '',
-            title: 'Turtlebot Teleoperation System',
+            title: 'Turtlebot Teleoperation System[개발중]',
             technologies: ['robotics'],
             description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
             categories: ['robotics']
