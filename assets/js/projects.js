@@ -100,7 +100,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/openVLA.gif',
-            link: 'https://openvla.github.io/',
+            link: 'https://www.notion.so/Demo_OpenVLA-1f6f891b707680449c6bf1d37dd49b58?pvs=4',
             title: 'OpenVLA Experiment',
             technologies: ['VLA'],
             description: "Directly applied the OpenVLA model and conducted experiments.",
@@ -112,7 +112,7 @@ let render_projects = (slug) => {
             title: 'Customized widowX 250s',
             technologies: ['robotics'],
             description: "Assembled the WidowX robotic arm and customized the bartender example.",
-            categories: ['robotics']
+            categories: ['robotics','featured']
         },
         {
             image: 'assets/images/omx.gif',
@@ -120,7 +120,7 @@ let render_projects = (slug) => {
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX 7DoF and playing with the MoveIt controller.",
-            categories: ['robotics']
+            categories: ['robotics','featured']
         },
         {
             image: 'assets/images/smartfactory.gif',
@@ -128,7 +128,7 @@ let render_projects = (slug) => {
             title: 'Low scale Smart Factory',
             technologies: ['robotics'],
             description: "Aiming to build a small-scale smart factory, I developed a system where, upon a customer’s web order, a robot arm detects the product via an ARUCO marker and performs pick-and-place operations.",
-            categories: ['robotics']
+            categories: ['robotics','featured']
         },
         {
             image: 'assets/images/로봇공학.gif',
@@ -136,7 +136,7 @@ let render_projects = (slug) => {
             title: 'Autonomous cars and Smart City',
             technologies: ['Arduino','Robotics'],
             description: "Imagining a future city, I built a smart-city prototype featuring autonomous vehicles and automated charging stations.",
-            categories: ['robotics']
+            categories: ['robotics','featured']
         },
         {
             image: 'assets/images/rae.gif',
