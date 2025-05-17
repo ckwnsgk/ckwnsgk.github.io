@@ -117,7 +117,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/omx.gif',
             link: 'https://www.notion.so/DEMO_7Dof_OMX-control-1f5f891b707680f4b196e16a47efd57f',
-            title: 'Customized OMX-7DOF',
+            title: 'Customized OMX-6DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX and playing with the MoveIt controller.",
             categories: ['robotics','featured']
