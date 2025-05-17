@@ -37,7 +37,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/hy.gif',
             link: '',
-            title: '코액스 Smart Tech 전시회',
+            title: '코액스 Smart-Tech 전시회',
             technologies: ['forum','networking'],
             description: "코액스 스마트 테크 전시회에 방문하여, 제가 연구중이던 Fully Autonomous Palletizing 에 대해 현재 기술 수준과 한계점을 파악할 수 있었습니다.",
             categories: ['activity']
@@ -61,7 +61,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/kiroplatform.jpeg',
             link: '',
-            title: '2024-국방로봇경진대회',
+            title: '2024-국방로봇경진대회[로봇기업상]',
             technologies: ['Award','ROS','Robotics','moveit','YOLO'],
             description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
             categories: ['challenge','featured']
@@ -126,7 +126,7 @@ let render_projects = (slug) => {
             image: 'assets/images/smartfactory.gif',
             link: 'https://www.notion.so/LSSF-Low-Scale-Smart-Factory-1f6f891b707680bfbe56edfe37206dee?pvs=4',
             title: 'Low scale Smart Factory',
-            technologies: ['robotics'],
+            technologies: ['robotics','ROS'],
             description: "Aiming to build a small-scale smart factory, I developed a system where, upon a customer’s web order, a robot arm detects the product via an ARUCO marker and performs pick-and-place operations.",
             categories: ['robotics','featured']
         },
@@ -150,7 +150,7 @@ let render_projects = (slug) => {
             image: 'assets/images/imu.gif',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
             title: '국립재활원 과제',
-            technologies: ['Python', 'ROS2'],
+            technologies: ['ROS'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
             categories: ['robotics']
         },
@@ -158,7 +158,7 @@ let render_projects = (slug) => {
             image: 'assets/images/Remotix.png',
             link: '',
             title: 'Turtlebot Teleoperation System[개발중]',
-            technologies: ['robotics'],
+            technologies: ['robotics','react','ROS'],
             description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
             categories: ['robotics']
         },
