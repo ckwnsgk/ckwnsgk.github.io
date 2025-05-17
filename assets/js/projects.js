@@ -119,7 +119,7 @@ let render_projects = (slug) => {
             link: 'https://www.notion.so/DEMO_7Dof_OMX-control-1f5f891b707680f4b196e16a47efd57f',
             title: 'Customized OMX-7DOF',
             technologies: ['robotics'],
-            description: "Assembled the OMX https://www.notion.so/1f6f891b707680bc8453c16857aef4d2?pvs=47DoF and playing with the MoveIt controller.",
+            description: "Assembled the OMX and playing with the MoveIt controller.",
             categories: ['robotics','featured']
         },
         {
